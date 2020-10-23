@@ -168,22 +168,22 @@ class fish
 
 
 noStroke();
-fill(220, 20, 60)
-stoke(5)
-triangle (fishX+125, fishY+100, fishX+175, fishY+65, fishX+175, fishY+135)
-ellipse(fishX+100, fishY+100, 100, 70)
+fill(220, 20, 60);
+stoke(5);
+triangle (fishX+125, fishY+100, fishX+175, fishY+65, fishX+175, fishY+135);
+ellipse(fishX+100, fishY+100, 100, 70);
 arc(fishX+100, fishY+110, 10, 30, 0, PI);
-fill(0)
+fill(0);
 noStroke();
 ellipse(100-20+myX, 100-10+myY, 13, 13);
 fill(200,100,0);
 
-fill(115, 102, 189)
-stoke(5)
-triangle (fishX+125, fishY+100, fishX+175, fishY+65, fishX+175, fishY+135)
-ellipse(fishX+100, fishY+100, 100, 70)
+fill(115, 102, 189);
+stoke(5);
+triangle (fishX+125, fishY+100, fishX+175, fishY+65, fishX+175, fishY+135);
+ellipse(fishX+100, fishY+100, 100, 70);
 arc(fishX+100, fishY+110, 10, 30, 0, PI);
-fill(0)
+fill(0);
 noStroke();
 ellipse(100-20+myX, 100-10+myY, 13, 13);
 fill(200,100,0);
